@@ -5,7 +5,7 @@
 <img src="/doc/figs/portfolio_consturction.png" width="800">
 
    By selecting the stock with the highest Sharpe ratio from each cluster, 4 equally weighted portfolios are constructed each consisting of 30 stocks. Based on silhouette scores and Sharpe ratio, agglomerative clustering with average linkage trained on last one year of data is selected as the final model.
-   <img src="/doc/figs/result.png" width="800">
+   <img src="/doc/figs/results.png" width="800">
    <img src="/doc/figs/silhouette.png" width="800">
    <img src="/doc/figs/volatility.png" width="800">
     The performance of the selected portfolio in the test period in terms of Sharpe ratio performed better than random selection but worse than DJIA. Results in terms of volatility showed better performance; the selected portfolio had an annualized volatility lower than random selection as well as the average volatility of all clusters and fairly close to that of equally weighted portfolio consisting of all 470 stocks in the data. Also, only one out of 30 clusters had a volatility lower than that of the selected portfolio. The following suggestions are made for improvements and further studies:
