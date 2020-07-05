@@ -11,15 +11,15 @@
      <img src="/doc/figs/volatility.png" width="800">
    
      The performance of the selected portfolio in the test period in terms of Sharpe ratio performed better than random selection but worse than DJIA. Results in terms of volatility showed better performance; the selected portfolio had an annualized volatility lower than random selection as well as the average volatility of all clusters and fairly close to that of equally weighted portfolio consisting of all 470 stocks in the data. Also, only one out of 30 clusters had a volatility lower than that of the selected portfolio. The following suggestions are made for improvements and further studies:
-         + Other metrics can be used as alternatives of Sharpe Ratio: Sortino Ratio,Value-at-Risk, etc.
-         + Adjust length of training period and number of clusters
-         + Change/extend pool of stocks
-         + Implement distance thresholds
-         + Assign weights on each stock of the portfolio based on an optimization problem to maximize Sharpe ratio
-         + Add/utilize industry sector information for each company
-         + Use time series analysis to describe the changes in stock prices throughout the duration
+   + Other metrics can be used as alternatives of Sharpe Ratio: Sortino Ratio,Value-at-Risk, etc.
+   + Adjust length of training period and number of clusters
+   + Change/extend pool of stocks
+   + Implement distance thresholds
+   + Assign weights on each stock of the portfolio based on an optimization problem to maximize Sharpe ratio
+   + Add/utilize industry sector information for each company
+   + Use time series analysis to describe the changes in stock prices throughout the duration
 
-    
+
 + **Contributions**:
    + Led group of five graduate students to build and train machine learning models using K-means clustering and hierarchical clustering in Python in order to construct a diversified portfolio of 30 stocks.
    + Evaluated performance using Sharpe ratio and annualized volatility of the portfolio in comparison benchmarks, concluding the portfolio is well diversified in terms of volatility.
