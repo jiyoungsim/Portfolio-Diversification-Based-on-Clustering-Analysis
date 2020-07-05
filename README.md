@@ -2,7 +2,7 @@
 
 + **Objectives**: In this project, we use clustering algorithms to create a diversified portfolio to reduce volatility and reduce the overall risk of an investment portfolio.
 + **Summary**: The goal of this project is to construct a well-diversified portfolio using clustering. We trained 4 different models: (1) k-means clustering with daily log returns as features and (2) agglomerative (hierarchical) clustering methods based on correlation distances with single linkage, (3) complete linkage, (4) and average linkage.
-![screenshot](doc/figs/portfolio consturction.png)
+![screenshot](doc/figs/portfolio_consturction.png)
 
     By selecting the stock with the highest Sharpe ratio from each cluster, 4 equally weighted portfolios are constructed each consisting of 30 stocks. Based on silhouette scores and Sharpe ratio, agglomerative clustering with average linkage trained on last one year of data is selected as the final model.
     ![screenshot](doc/figs/results.png)
