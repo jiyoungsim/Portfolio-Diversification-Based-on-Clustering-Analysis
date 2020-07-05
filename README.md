@@ -18,8 +18,8 @@
     + Use time series analysis to describe the changes in stock prices throughout the duration
     
 + **Contributions**:
-    +	Led group of five graduate students to build and train machine learning models using K-means clustering and Agglomerative clustering in Python in order to construct a diversified portfolio of 30 stocks.
-    +	Evaluated performance using Sharpe ratio and annualized volatility of the portfolio in comparison to market volatility and volatility of each cluster, concluding the portfolio is well diversified in terms of volatility.
+    +	Led group of five graduate students to build and train machine learning models using K-means clustering and hierarchical clustering in Python in order to construct a diversified portfolio of 30 stocks.
+    +	Evaluated performance using Sharpe ratio and annualized volatility of the portfolio in comparison benchmarks, concluding the portfolio is well diversified in terms of volatility.
     +	Communicated results and made suggestions for improvement in forms of verbal presentation and written report.
     
 + **Keywords: Clustering (K-means, Hierarchical), Unsupervised Learning, Portfolio Diversification, Sharpe Ratio, Volatility, Python**
