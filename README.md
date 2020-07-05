@@ -22,7 +22,7 @@
     +	Evaluated performance using Sharpe ratio and annualized volatility of the portfolio in comparison to market volatility and volatility of each cluster, concluding the portfolio is well diversified in terms of volatility.
     +	Communicated results and made suggestions for improvement in forms of verbal presentation and written report.
     
-+ **Keywords**: Clustering (K-means, Hierarchical), Unsupervised Learning, Portfolio Diversification, Sharpe Ratio, Volatility, Python
++ **Keywords: Clustering (K-means, Hierarchical), Unsupervised Learning, Portfolio Diversification, Sharpe Ratio, Volatility, Python**
 
 ```
 proj/
