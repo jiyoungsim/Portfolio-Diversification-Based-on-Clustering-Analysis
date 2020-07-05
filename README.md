@@ -19,6 +19,7 @@
    + Add/utilize industry sector information for each company
    + Use time series analysis to describe the changes in stock prices throughout the duration
     
+    
 + **Contributions**:
    + Led group of five graduate students to build and train machine learning models using K-means clustering and hierarchical clustering in Python in order to construct a diversified portfolio of 30 stocks.
    + Evaluated performance using Sharpe ratio and annualized volatility of the portfolio in comparison benchmarks, concluding the portfolio is well diversified in terms of volatility.
