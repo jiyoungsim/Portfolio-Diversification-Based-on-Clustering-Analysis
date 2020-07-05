@@ -24,6 +24,9 @@
     
 + **Keywords: Clustering (K-means, Hierarchical), Unsupervised Learning, Portfolio Diversification, Sharpe Ratio, Volatility, Python**
 
+
+Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
+
 ```
 proj/
 ├── data/ data used in the analysis. 
