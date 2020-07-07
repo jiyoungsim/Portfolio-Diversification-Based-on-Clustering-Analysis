@@ -1,7 +1,7 @@
 # Portfolio Diversification Based on Clustering Analysis (Project Lead)
-
++ **Keywords: Clustering (K-means, Hierarchical), Unsupervised Machine Learning, Portfolio Diversification, Sharpe Ratio, Volatility, Python**
 + **Objectives**: In this project, we use clustering algorithms to create a diversified portfolio to reduce volatility and reduce the overall risk of an investment portfolio.
-+ **Summary**: The goal of this project is to construct a well-diversified portfolio using clustering. We trained 4 different models: (1) k-means clustering with daily log returns as features and (2) agglomerative (hierarchical) clustering methods based on correlation distances with single linkage, (3) complete linkage, (4) and average linkage.
++ **Summary**: The goal of this project is to construct a well-diversified portfolio using clustering. We trained 4 different models: (1) k-means clustering with daily log returns as features and (2) agglomerative (hierarchical) clustering methods based on correlation distances with single linkage, (3) complete linkage, (4) and average linkage. See project notebook/report/slides for more details.
    <img src="/figs/portfolio_consturction.png" width="800">
 
      By selecting the stock with the highest Sharpe ratio from each cluster, 4 equally weighted portfolios are constructed each consisting of 30 stocks. Based on silhouette scores and Sharpe ratio, agglomerative clustering with average linkage trained on last one year of data is selected as the final model.
@@ -25,8 +25,6 @@
    + Evaluated performance using Sharpe ratio and annualized volatility of the portfolio in comparison benchmarks, concluding the portfolio is well diversified in terms of volatility.
    + Communicated results and made suggestions for improvement in forms of verbal presentation and written report.
     
-+ **Keywords: Clustering (K-means, Hierarchical), Unsupervised Machine Learning, Portfolio Diversification, Sharpe Ratio, Volatility, Python**
-
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
